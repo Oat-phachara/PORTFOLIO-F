@@ -1,0 +1,36 @@
+.logo {
+  background-color: rgba(223, 211, 217, 0.5);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.picture {
+  width: 300px;
+  height: 300px;
+  background-image: url("../../assets/picture/S1.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+.section {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.418);
+  display: flex;
+  flex-direction: column;
+}
+.section .flexitems {
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+}
+.section a {
+  font-size: 14px;
+}
+
+.icon {
+  width: 25px;
+}
+.git {
+  text-decoration: none;
+}

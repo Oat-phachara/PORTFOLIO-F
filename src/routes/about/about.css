@@ -1,0 +1,59 @@
+.hand {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20%;
+  margin-left: 5px;
+}
+.topic {
+  font-size: 150px;
+}
+.content {
+  width: 100%;
+  max-width: 600px;
+}
+.content h3 {
+  background-color: rgb(164, 168, 168);
+  width: 250px;
+  height: 44px;
+  font-size: 25px;
+  align-items: center;
+  padding-left: 6px;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+.content p {
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 50px;
+  margin-top: 15px;
+  font-family: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.623);
+}
+.carousel-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.image-container {
+  width: 100%;
+  max-width: 650px; /* Ensure consistent image size */
+  height: 350px; /* Ensure consistent image height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 120px;
+}
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
